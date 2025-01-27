@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary-100: #f0fbfa;
+  --color-primary-300: #cbe4ed;
+  --color-primary-500: #b7adc6;
+  --color-primary-700: #578098;
+  --color-primary-900: #203038;
+}
+
+.inner-custom-top {
+  box--shadow-: inset 0 -10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.inner-custom-bottom {
+  box--shadow-: inset 0 10px 20px rgba(0, 0, 0, 0.5);
+}
